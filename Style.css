@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    
+    background:url(pexels-photo-2942855.jpeg);
+    background-position: center;
+    background-repeat:repeat-y;
+    background-size: cover;
+    text-align: center;
+    margin-top: 60px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+form {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 300px;
+    height: 150px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.377);
+    align-items: center;
+    position: relative;
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#botao{
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+#botao:hover{
+    border-radius: 8px; 
+    padding: 8px;
+    margin: 8px;
+    background-color: rgba(253, 163, 200, 0.932);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
